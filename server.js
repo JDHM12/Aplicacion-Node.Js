@@ -9,7 +9,7 @@ app.use(express.static(__dirname))
 app.use(bodyparser.json())
 app.use(bodyparser.urlencoded({extended: false }))
 var mongoose = require('mongoose')
-var dbURL= 'mongodb+srv://lola:JndCfqe6hoTbkuwT@example.mvzvacm.mongodb.net/?retryWrites=true&w=majority'
+var dbURL= '--'
 
 var Message= mongoose.model('Message',{
     name: String,
